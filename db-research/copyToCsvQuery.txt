@@ -1,0 +1,1 @@
+COPY (SELECT * FROM Scholars WHERE department LIKE %Computer% OR title LIKE %Computer%) TO /Users/samchan/Shared316/researchhub2018/db-research/allCompsciScholars.csv WITH CSV;

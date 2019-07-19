@@ -1,0 +1,106 @@
+--Basic queries to present on web page
+
+--Research Projects Page: 
+
+--(All Research Projects)
+SELECT * FROM ProjectInfo;
+   pid    |                 name                 | num_spots |     date_posted     |                        description                        | skills_description 
+----------+--------------------------------------+-----------+---------------------+-----------------------------------------------------------+--------------------
+ 20000000 | Lucine Research Project              |         1 | 2017-02-06 11:00:00 | Working with a Ph. D student on this protein              | Pipetting
+ 10000000 | Medical Imaging for Cancer Diagnosis |         2 | 2018-01-11 11:00:00 | Using imaging to improve breast cancer diagnosis          | Matlab
+ 30000000 | Duke Parking Project                 |         3 | 2018-02-07 12:00:00 | Using duke parking data to find optimal parking locations | R, Data Analysis
+(3 rows)
+
+
+--(Research projects filtered by subject)
+--NOTE: 'User Input/Dropdown menu' is a placeholder for the string that a user will input via either a search bar or drop down menu
+SELECT * FROM ProjectSubject WHERE subject = 'User Input/Dropdown menu';
+ pid | subject 
+-----+---------
+(0 rows)
+
+
+--(Research Projects sorted by number of open spots)
+SELECT * FROM ProjectInfo WHERE num_spots > 0 ORDER BY num_spots DESC; 
+   pid    |                 name                 | num_spots |     date_posted     |                        description                        | skills_description 
+----------+--------------------------------------+-----------+---------------------+-----------------------------------------------------------+--------------------
+ 30000000 | Duke Parking Project                 |         3 | 2018-02-07 12:00:00 | Using duke parking data to find optimal parking locations | R, Data Analysis
+ 10000000 | Medical Imaging for Cancer Diagnosis |         2 | 2018-01-11 11:00:00 | Using imaging to improve breast cancer diagnosis          | Matlab
+ 20000000 | Lucine Research Project              |         1 | 2017-02-06 11:00:00 | Working with a Ph. D student on this protein              | Pipetting
+(3 rows)
+
+
+--(Research Projects sorted by date posted, starting with most recent)
+SELECT * FROM ProjectInfo ORDER BY date_posted DESC; 
+   pid    |                 name                 | num_spots |     date_posted     |                        description                        | skills_description 
+----------+--------------------------------------+-----------+---------------------+-----------------------------------------------------------+--------------------
+ 30000000 | Duke Parking Project                 |         3 | 2018-02-07 12:00:00 | Using duke parking data to find optimal parking locations | R, Data Analysis
+ 10000000 | Medical Imaging for Cancer Diagnosis |         2 | 2018-01-11 11:00:00 | Using imaging to improve breast cancer diagnosis          | Matlab
+ 20000000 | Lucine Research Project              |         1 | 2017-02-06 11:00:00 | Working with a Ph. D student on this protein              | Pipetting
+(3 rows)
+
+
+--Project Leaders Page:
+
+--(All project managers)
+SELECT * FROM Manages;
+   pid    | research_lead_id 
+----------+------------------
+ 10000000 |               11
+ 20000000 |               12
+ 30000000 |               13
+(3 rows)
+
+
+--(Project Managers of x department)
+SELECT * FROM LeadDept WHERE department = 'User Input/Dropdown menu'; 
+ id | department 
+----+------------
+(0 rows)
+
+
+--(Project Managers sorted by name)
+SELECT * FROM Manages INNER JOIN Person ON research_lead_id = id ORDER BY name ASC;
+   pid    | research_lead_id | id |      name       |        email         |    phone     
+----------+------------------+----+-----------------+----------------------+--------------
+ 10000000 |               11 | 11 | Johnson, Bob    | bob.johnson@duke.edu | 919-111-1234
+ 30000000 |               13 | 13 | Jones, Benjamin | ben.jones@duke.edu   | 917-228-4321
+ 20000000 |               12 | 12 | Lee, Michael    | mike.lee@duke.edu    | 313-218-4221
+(3 rows)
+
+
+--Students Page:
+
+--(All students)
+SELECT * FROM StudentInfo; 
+ id |     research_interests      |           resume           
+----+-----------------------------+----------------------------
+  1 | Molecular Biology, Genetics | https://resume.com
+  2 | Machine Learning            | https://duke.edu/my_resume
+  3 | Greek Architecture          | https://google.com/resume
+(3 rows)
+
+
+--(Select students by major)
+SELECT * FROM StudentMajor WHERE major = 'User Input/Dropdown menu'; 
+ id | major 
+----+-------
+(0 rows)
+
+
+--(Select students by research interests)
+SELECT * FROM StudentInfo WHERE research_interests = 'User Input/Dropdown menu';
+ id | research_interests | resume 
+----+--------------------+--------
+(0 rows)
+
+
+--(Sort students alphabetically)
+SELECT * FROM StudentInfo INNER JOIN Person ON StudentInfo.id = Person.id ORDER BY name ASC; 
+ id |     research_interests      |           resume           | id |     name      |         email         |    phone     
+----+-----------------------------+----------------------------+----+---------------+-----------------------+--------------
+  1 | Molecular Biology, Genetics | https://resume.com         |  1 | Chan, Sam     | sam.chan@duke.edu     | 919-323-1234
+  3 | Greek Architecture          | https://google.com/resume  |  3 | Simpson, Bart | bart.simpson@duke.edu | 
+  2 | Machine Learning            | https://duke.edu/my_resume |  2 | Smith, John   | john.smith@duke.edu   | 919-322-1634
+(3 rows)
+

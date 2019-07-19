@@ -1,0 +1,8 @@
+﻿“Duke Research Hub” Project Milestone 1
+Team Members: Christian Burke, Samuel Chan, Vinit Parekh, James Rumsey, Justin Suh
+=========================
+Christian Burke: Worked primarily on task 4 and 5 (web interface design, description, SQL queries)
+Sam Chan: Worked mostly on task 2 and 3 (E/R diagram design, sql database creation) as well as task 5
+Justin Suh: Worked mostly on task 2 and 3 (E/R diagram design, sql database creation)
+James Rumsey: Worked on Task 3 and task 5 (Populating database, testing queries using this sample data)
+Vinit Parekh: Handled task 1 (description, plan, assumptions)

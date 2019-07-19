@@ -1,0 +1,8 @@
+“Duke Research Hub” Project Milestone 2
+Team Members: Christian Burke, Samuel Chan, Vinit Parekh, James Rumsey, Justin Suh
+=========================
+Justin Suh: worked primarily on progress report and test-production.sql
+James Rumsey: Generated production dataset, updated database schema. Created app.py in Flask to display a list of all members of Person and Project tables on a webpage.
+Vinit Parekh: Worked on Redux / React, authentication and accounts info, basic page information and requirements
+Samuel Chan: Worked on integrating React with the html basic framework of the current website, generate test-production.out
+Christian Burke: Worked on webscraping data from scholars.duke.edu. Also worked on models.py and README.

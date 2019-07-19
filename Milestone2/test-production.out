@@ -1,0 +1,167 @@
+ pid |              name               | num_spots |     date_posted     |                                       description                                       |        skills_description        
+-----+---------------------------------+-----------+---------------------+-----------------------------------------------------------------------------------------+----------------------------------
+   1 | elit, dictum eu, eleifend       |         2 | 2018-11-08 03:00:00 | lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at                               | vulputate, nisi sem semper erat,
+   2 | dolor quam, elementum at,       |         5 | 2018-11-08 03:00:00 | mi pede, nonummy ut, molestie in, tempus eu, ligula. Aenean                             | aptent taciti sociosqu
+   3 | pede et risus. Quisque          |         5 | 2018-11-08 03:00:00 | id risus quis diam luctus lobortis. Class aptent taciti sociosqu                        | ligula
+   4 | augue id ante dictum            |         4 | 2018-11-08 03:00:00 | porttitor vulputate, posuere vulputate, lacus. Cras interdum. Nunc sollicitudin commodo | arcu ac
+   5 | Lorem ipsum dolor sit           |         1 | 2018-11-08 03:00:00 | vulputate mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim.          | nulla. Cras
+   6 | sem. Nulla interdum. Curabitur  |         1 | 2018-11-08 03:00:00 | eu lacus. Quisque imperdiet, erat nonummy ultricies ornare, elit elit                   | tellus lorem
+   7 | Maecenas libero est, congue     |         5 | 2018-11-08 03:00:00 | quam a felis ullamcorper viverra. Maecenas iaculis aliquet diam. Sed                    | Aliquam auctor, velit
+   8 | fringilla est. Mauris eu        |         1 | 2018-11-08 03:00:00 | massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede              | nunc.
+   9 | montes, nascetur ridiculus mus. |         3 | 2018-11-08 03:00:00 | Phasellus dapibus quam quis diam. Pellentesque habitant morbi tristique senectus        | risus quis diam luctus
+  10 | fringilla ornare placerat, orci |         4 | 2018-11-08 03:00:00 | semper auctor. Mauris vel turpis. Aliquam adipiscing lobortis risus. In                 | cursus,
+(10 rows)
+
+ pid | subject 
+-----+---------
+(0 rows)
+
+ pid |               name               | num_spots |     date_posted     |                                 description                                 |      skills_description       
+-----+----------------------------------+-----------+---------------------+-----------------------------------------------------------------------------+-------------------------------
+  48 | mauris sapien, cursus in,        |         5 | 2018-11-09 03:00:00 | in molestie tortor nibh sit amet orci. Ut sagittis lobortis                 | sit amet risus.
+  12 | dui. Cum sociis natoque          |         5 | 2018-11-08 03:00:00 | mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla              | dictum
+  30 | aliquam, enim nec tempus         |         5 | 2018-11-08 03:00:00 | Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac | sit
+  39 | vitae diam. Proin dolor.         |         5 | 2018-11-09 03:00:00 | non, egestas a, dui. Cras pellentesque. Sed dictum. Proin eget              | risus
+   3 | pede et risus. Quisque           |         5 | 2018-11-08 03:00:00 | id risus quis diam luctus lobortis. Class aptent taciti sociosqu            | ligula
+   7 | Maecenas libero est, congue      |         5 | 2018-11-08 03:00:00 | quam a felis ullamcorper viverra. Maecenas iaculis aliquet diam. Sed        | Aliquam auctor, velit
+   2 | dolor quam, elementum at,        |         5 | 2018-11-08 03:00:00 | mi pede, nonummy ut, molestie in, tempus eu, ligula. Aenean                 | aptent taciti sociosqu
+  26 | convallis, ante lectus convallis |         5 | 2018-11-08 03:00:00 | turpis non enim. Mauris quis turpis vitae purus gravida sagittis.           | nascetur
+  36 | tellus justo sit amet            |         5 | 2018-11-09 03:00:00 | inceptos hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In          | luctus,
+  52 | libero. Morbi accumsan laoreet   |         5 | 2018-11-09 03:00:00 | Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat.      | sapien. Aenean massa. Integer
+(10 rows)
+
+ pid |               name                | num_spots |     date_posted     |                                   description                                   |       skills_description        
+-----+-----------------------------------+-----------+---------------------+---------------------------------------------------------------------------------+---------------------------------
+  97 | et tristique pellentesque, tellus |         2 | 2018-11-13 03:00:00 | at auctor ullamcorper, nisl arcu iaculis enim, sit amet ornare                  | Mauris quis turpis vitae purus
+ 100 | purus mauris a nunc.              |         3 | 2018-11-13 03:00:00 | dui, nec tempus mauris erat eget ipsum. Suspendisse sagittis. Nullam            | pharetra. Nam ac nulla.
+  94 | mi lorem, vehicula et,            |         5 | 2018-11-13 03:00:00 | vel turpis. Aliquam adipiscing lobortis risus. In mi pede, nonummy              | ipsum. Donec
+  96 | Aenean euismod mauris eu          |         2 | 2018-11-13 03:00:00 | lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac              | eget, volutpat
+  98 | mollis nec, cursus a,             |         2 | 2018-11-13 03:00:00 | Nulla dignissim. Maecenas ornare egestas ligula. Nullam feugiat placerat velit. | hendrerit id, ante. Nunc mauris
+  99 | enim. Curabitur massa. Vestibulum |         2 | 2018-11-13 03:00:00 | adipiscing non, luctus sit amet, faucibus ut, nulla. Cras eu                    | ac metus vitae velit
+  92 | risus odio, auctor vitae,         |         5 | 2018-11-13 03:00:00 | Cras interdum. Nunc sollicitudin commodo ipsum. Suspendisse non leo. Vivamus    | ultrices. Duis volutpat nunc
+  93 | purus. Duis elementum, dui        |         1 | 2018-11-13 03:00:00 | ut aliquam iaculis, lacus pede sagittis augue, eu tempor erat                   | elit. Etiam laoreet,
+  95 | dignissim magna a tortor.         |         3 | 2018-11-13 03:00:00 | amet, faucibus ut, nulla. Cras eu tellus eu augue porttitor                     | cursus. Integer
+  78 | aliquet lobortis, nisi nibh       |         2 | 2018-11-10 03:00:00 | sollicitudin adipiscing ligula. Aenean gravida nunc sed pede. Cum sociis        | nisl arcu iaculis
+(10 rows)
+
+ pid | subject 
+-----+---------
+(0 rows)
+
+ pid | subject 
+-----+---------
+(0 rows)
+
+ pid | research_lead_id 
+-----+------------------
+   1 |               39
+   2 |               19
+   3 |               65
+   4 |              100
+   5 |               30
+   6 |               58
+   7 |               40
+   8 |               23
+   9 |               20
+  10 |               14
+(10 rows)
+
+ id |        department         
+----+---------------------------
+  6 | Environmental Engineering
+ 17 | Environmental Engineering
+ 33 | Environmental Engineering
+ 40 | Environmental Engineering
+ 47 | Environmental Engineering
+ 53 | Environmental Engineering
+ 92 | Environmental Engineering
+(7 rows)
+
+ pid | research_lead_id | id |       name        |               email                |    phone     
+-----+------------------+----+-------------------+------------------------------------+--------------
+  87 |               85 | 85 | Aimil Brumby      | abrumby2c@aol.com                  | 
+  75 |               85 | 85 | Aimil Brumby      | abrumby2c@aol.com                  | 
+  82 |               97 | 97 | Alanson Rigler    | arigler2o@narod.ru                 | 
+  58 |               97 | 97 | Alanson Rigler    | arigler2o@narod.ru                 | 
+  84 |               97 | 97 | Alanson Rigler    | arigler2o@narod.ru                 | 
+  34 |               16 | 16 | Alexei Rosbrough  | arosbroughf@elegantthemes.com      | 721-412-7231
+  72 |               82 | 82 | Alex Pregal       | apregal29@sitemeter.com            | 494-435-8654
+  45 |               37 | 37 | Alysia McGeaney   | amcgeaney10@nationalgeographic.com | 838-690-5684
+  33 |               34 | 34 | Anne-corinne Toop | atoopx@sourceforge.net             | 610-213-8769
+  25 |               34 | 34 | Anne-corinne Toop | atoopx@sourceforge.net             | 610-213-8769
+(10 rows)
+
+ pid | research_lead_id | id |       name        |           email            |    phone     
+-----+------------------+----+-------------------+----------------------------+--------------
+ 100 |               89 | 89 | Zechariah Syder   | zsyder2g@w3.org            | 494-998-1566
+  13 |                3 |  3 | Yvette Fairham    | yfairham2@businessweek.com | 217-757-7138
+  24 |               90 | 90 | Wilone Lindstedt  | wlindstedt2h@springer.com  | 114-638-4291
+  39 |               95 | 95 | Vaughan Kingdom   | vkingdom2m@webeden.co.uk   | 510-643-5044
+  96 |               79 | 79 | Tonye Plampin     | tplampin26@miibeian.gov.cn | 954-539-4494
+  27 |               96 | 96 | Terese Dacey      | tdacey2n@gnu.org           | 252-953-7847
+  19 |               15 | 15 | Sheilah Normavill | snormaville@instagram.com  | 968-567-4281
+  65 |               68 | 68 | Sheila Bucke      | sbucke1v@abc.net.au        | 309-571-6791
+  79 |               68 | 68 | Sheila Bucke      | sbucke1v@abc.net.au        | 309-571-6791
+  23 |               68 | 68 | Sheila Bucke      | sbucke1v@abc.net.au        | 309-571-6791
+(10 rows)
+
+ pid | research_lead_id | id |       name        |           email           |    phone     | id |      department       
+-----+------------------+----+-------------------+---------------------------+--------------+----+-----------------------
+ 100 |               89 | 89 | Zechariah Syder   | zsyder2g@w3.org           | 494-998-1566 | 89 | Computer Science
+  98 |               58 | 58 | Jobina Magog      | jmagog1l@parallels.com    | 405-469-6729 | 58 | Computer Science
+  90 |               64 | 64 | Lem Hauch         | lhauch1r@51.la            | 732-137-9586 | 64 | Computer Science
+  76 |               64 | 64 | Lem Hauch         | lhauch1r@51.la            | 732-137-9586 | 64 | Computer Science
+  19 |               15 | 15 | Sheilah Normavill | snormaville@instagram.com | 968-567-4281 | 15 | Computer Science
+   6 |               58 | 58 | Jobina Magog      | jmagog1l@parallels.com    | 405-469-6729 | 58 | Computer Science
+  95 |                8 |  8 | Josy Redshaw      | jredshaw7@bbb.org         | 510-785-6459 |  8 | Computer Science
+  78 |               64 | 64 | Lem Hauch         | lhauch1r@51.la            | 732-137-9586 | 64 | Computer Science
+   8 |               23 | 23 | Pierette Jeacop   | pjeacopm@prlog.org        |              | 23 | Computer Science
+  33 |               34 | 34 | Anne-corinne Toop | atoopx@sourceforge.net    | 610-213-8769 | 34 | Cultural Anthropology
+(10 rows)
+
+ id  |    research_interests     |  resume   |           school            | year 
+-----+---------------------------+-----------+-----------------------------+------
+ 101 | vitae nibh. Donec         | urna.     | Pratt School of Engineering | 2019
+ 102 | adipiscing elit. Aliquam  | at        | Pratt School of Engineering | 2022
+ 103 | eget magna. Suspendisse   | in        | Trinity College             | 2021
+ 104 | lacus pede sagittis       | Curabitur | Pratt School of Engineering | 2021
+ 105 | egestas. Duis ac          | vitae     | Trinity College             | 2019
+ 106 | urna convallis erat,      | sapien,   | Pratt School of Engineering | 2022
+ 107 | lobortis. Class aptent    | arcu.     | Trinity College             | 2019
+ 113 | consequat purus. Maecenas | lorem,    | Trinity College             | 2021
+ 109 | dapibus id, blandit       | arcu.     | Pratt School of Engineering | 2021
+ 110 | nisl elementum purus,     | pede      | Trinity College             | 2020
+(10 rows)
+
+ id | research_interests | resume | school | year 
+----+--------------------+--------+--------+------
+(0 rows)
+
+ id  |     research_interests     |  resume   |           school            | year | id  |        name        |            email             |    phone     
+-----+----------------------------+-----------+-----------------------------+------+-----+--------------------+------------------------------+--------------
+ 122 | enim. Suspendisse aliquet, | Nunc      | Trinity College             | 2019 | 122 | Aila Robak         | arobak3d@topsy.com           | 170-969-9822
+ 180 | egestas. Sed pharetra,     | Integer   | Trinity College             | 2022 | 180 | Alberik De Mattei  | ade4z@rambler.ru             | 868-371-1337
+ 125 | massa. Mauris vestibulum,  | morbi     | Trinity College             | 2022 | 125 | Andris Liffey      | aliffey3g@naver.com          | 755-999-8499
+ 198 | dolor, nonummy ac,         | Integer   | Trinity College             | 2021 | 198 | Annalee Brandon    | abrandon5h@shutterfly.com    | 311-128-4623
+ 104 | lacus pede sagittis        | Curabitur | Pratt School of Engineering | 2021 | 104 | Anny Radin         | aradin2v@chronoengine.com    | 496-323-0753
+ 195 | pede. Praesent eu          | orci,     | Trinity College             | 2020 | 195 | Arlyne Horry       | ahorry5e@archive.org         | 568-690-4301
+ 124 | orci, adipiscing non,      | nisl      | Pratt School of Engineering | 2019 | 124 | Audrey Davidai     | adavidai3f@netscape.com      | 167-813-0309
+ 138 | aliquam adipiscing lacus.  | felis     | Pratt School of Engineering | 2021 | 138 | Averell MacGuffog  | amacguffog3t@photobucket.com | 
+ 183 | nisi dictum augue          | lorem,    | Pratt School of Engineering | 2019 | 183 | Blondelle Starford | bstarford52@nbcnews.com      | 331-766-0073
+ 172 | tellus sem mollis          | ultricies | Pratt School of Engineering | 2021 | 172 | Brock Brackenbury  | bbrackenbury4r@examiner.com  | 373-659-2684
+(10 rows)
+
+ id  |    research_interests     | resume  |           school            | year | id  |       name        |            email            |    phone     
+-----+---------------------------+---------+-----------------------------+------+-----+-------------------+-----------------------------+--------------
+ 145 | netus et malesuada        | orci    | Pratt School of Engineering | 2022 | 145 | Tessy Greenall    | tgreenall40@istockphoto.com | 711-971-1389
+ 151 | metus sit amet            | enim.   | Trinity College             | 2022 | 151 | Jud Dunton        | jdunton46@gov.uk            | 913-809-9314
+ 129 | Vestibulum ut eros        | magna   | Pratt School of Engineering | 2022 | 129 | Francene Duligall | fduligall3k@cisco.com       | 995-367-4862
+ 136 | libero. Integer in        | massa.  | Trinity College             | 2022 | 136 | Ewen Antat        | eantat3r@prnewswire.com     | 115-477-9425
+ 106 | urna convallis erat,      | sapien, | Pratt School of Engineering | 2022 | 106 | Sisile Suffield   | ssuffield2x@wisc.edu        | 464-837-5761
+ 146 | massa. Quisque porttitor  | ante.   | Pratt School of Engineering | 2022 | 146 | Jessalyn Bythell  | jbythell41@booking.com      | 915-726-6563
+ 102 | adipiscing elit. Aliquam  | at      | Pratt School of Engineering | 2022 | 102 | Jada Damper       | jdamper2t@themeforest.net   | 588-279-1444
+ 125 | massa. Mauris vestibulum, | morbi   | Trinity College             | 2022 | 125 | Andris Liffey     | aliffey3g@naver.com         | 755-999-8499
+ 133 | ornare sagittis felis.    | auctor  | Pratt School of Engineering | 2022 | 133 | Garth Peacey      | gpeacey3o@artisteer.com     | 977-280-2271
+ 156 | Sed eu nibh               | blandit | Pratt School of Engineering | 2022 | 156 | Kaye Cordrey      | kcordrey4b@g.co             | 994-376-5877
+(10 rows)
+
