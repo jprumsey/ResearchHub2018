@@ -2,7 +2,7 @@
 
 This application was developed as a final project for CompSci 316: Introduction to Database Systems during the Fall 2018 semester. We built a React.js app meant to display postings for undergraduate research positions at Duke, as well as contact information about Duke faculty/researchers across all departments. We also created the schema for a Postgres database used to store research position postings and faculty contact information (scraped from scholars.duke.edu, Duke's faculty directory), which is accessed with a Python Flask API we developed.
 
-**Note: All version control during this project was done on Duke's dedicated GitLab. That repository can be found at:  https://gitlab.oit.duke.edu/researchhub/researchhub2018.git**
+### **Note: All version control during this project was done on Duke's dedicated GitLab. That repository can be found at:  https://gitlab.oit.duke.edu/researchhub/researchhub2018.git**
 
 ## Project Description
 
